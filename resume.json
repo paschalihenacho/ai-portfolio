@@ -1,0 +1,225 @@
+{
+  "name": "Paschal Ihenacho",
+  "seoTitle": "Full Stack & AI Engineer",
+  "title": "Full Stack Engineer · AI Systems Builder",
+  "tagline": "I build modern software systems that are scalable, intelligent, and built for real users.",
+  "summary": "Full Stack Software Engineer with 8+ years of experience building scalable web applications and AI-powered software solutions. Specialized in TypeScript/JavaScript, Node.js, NestJS, React, and Next.js, with hands-on experience integrating LLMs, retrieval workflows, and cloud-ready architecture into real products.",
+  "about": "I design and build maintainable software systems that combine strong backend architecture, polished user experiences, and practical AI integrations. My work spans enterprise applications, e-commerce systems, API modernization, authentication flows, cloud deployment, and AI-assisted user support experiences. I care deeply about clean architecture, scalability, developer experience, and shipping products that solve real business problems.",
+  "profileLabel": "Full Stack Engineer",
+  "profileSummaryShort": "Building enterprise-grade web applications, AI-powered workflows, and scalable full-stack systems with a clean product mindset.",
+  "portrait": "https://easy-shop.s3.us-west-2.amazonaws.com/paschal.jpg",
+  "contact": {
+    "email": "ihenachopaschal@yahoo.com",
+    "phone": "832-641-2011",
+    "location": "Houston, TX, USA",
+    "linkedin": "https://www.linkedin.com/in/paschal-ihenacho/",
+    "github": "https://github.com/paschalihenacho"
+  },
+  "highlights": [
+    {
+      "label": "building web platforms",
+      "value": "8+ years"
+    },
+    {
+      "label": "AI, LangChain, and RAG",
+      "value": "LLM integration"
+    },
+    {
+      "label": "AWS, Azure, and Vercel",
+      "value": "Cloud-ready"
+    }
+  ],
+  "heroCards": [
+    {
+      "label": "Frontend",
+      "value": "React · Next.js · Angular · Vue"
+    },
+    {
+      "label": "Backend",
+      "value": "Node.js · NestJS · REST APIs"
+    },
+    {
+      "label": "AI",
+      "value": "OpenAI · LangChain · RAG"
+    },
+    {
+      "label": "Infra",
+      "value": "Docker · CI/CD · Azure DevOps"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend Engineering",
+      "items": [
+        "React",
+        "Next.js",
+        "Angular",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Responsive UI Architecture"
+      ]
+    },
+    {
+      "title": "Backend & API Design",
+      "items": [
+        "Node.js",
+        "NestJS",
+        "ExpressJS",
+        "REST APIs",
+        "TypeORM",
+        "Microservices",
+        "OAuth 2.0",
+        "JWT",
+        "WebSockets"
+      ]
+    },
+    {
+      "title": "AI Product Integration",
+      "items": [
+        "OpenAI API",
+        "Claude",
+        "LangChain",
+        "RAG Pipelines",
+        "Prompt Orchestration",
+        "Context Management",
+        "Pinecone"
+      ]
+    },
+    {
+      "title": "Cloud & Delivery",
+      "items": [
+        "AWS",
+        "Azure",
+        "Vercel",
+        "Docker",
+        "Azure DevOps",
+        "GitHub Actions",
+        "CI/CD",
+        "AWS Lambda",
+        "Testing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "EasyShop Commerce Platform",
+      "type": "Featured Project",
+      "description": "A production-grade e-commerce platform designed for scalability, maintainability, and modern shopping experiences. Built around strong domain separation, secure authentication, reusable architecture, and full-stack delivery.",
+      "stack": [
+        "Next.js",
+        "NestJS",
+        "TypeORM",
+        "MySQL",
+        "JWT",
+        "OAuth 2.0",
+        "AWS S3"
+      ]
+    },
+    {
+      "name": "ERP AI Support Assistant",
+      "type": "AI Integration",
+      "description": "Integrated an AI assistant into an ERP web application so end users could ask natural-language questions and receive contextual, step-by-step guidance for navigating workflows and completing tasks.",
+      "stack": ["OpenAI", "Claude", "LangChain", "RAG", "Node.js"]
+    },
+    {
+      "name": "API Modernization Initiative",
+      "type": "Platform Engineering",
+      "description": "Migrated legacy SOAP-based APIs to modern REST services, improving interoperability, maintainability, response performance, and engineering consistency across backend systems.",
+      "stack": ["Node.js", "NestJS", "REST APIs", "TypeORM"]
+    },
+    {
+      "name": "Enterprise Internal Tools",
+      "type": "Full Stack Delivery",
+      "description": "Built internal and business-facing applications with a focus on usability, secure communication, modular design, and scalable full-stack architecture across enterprise environments.",
+      "stack": ["React", "Vue", "Azure", "TypeScript"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Enertia Software",
+      "role": "Full Stack Developer",
+      "period": "2023 – Present",
+      "location": "Houston, TX",
+      "bullets": [
+        "Designed and developed scalable web applications using React and Node.js with ExpressJS and NestJS.",
+        "Built and optimized RESTful APIs across distributed systems using TypeORM for data modeling and database interaction.",
+        "Migrated legacy SOAP-based APIs to modern REST services to improve interoperability and maintainability.",
+        "Integrated AI-powered application support using Claude/OpenAI and LangChain for natural-language ERP workflows.",
+        "Developed an embedded AI assistant that provides step-by-step guidance inside the ERP web application.",
+        "Implemented Retrieval-Augmented Generation pipelines to retrieve documentation, knowledge base content, and internal guides.",
+        "Designed prompt orchestration and context strategies to improve response relevance, accuracy, and usability.",
+        "Secured WebSocket connections and enforced role-based authorization using NestJS guards."
+      ]
+    },
+    {
+      "company": "American National Insurance",
+      "role": "Full Stack Software Development Engineer",
+      "period": "2020 – 2023",
+      "location": "",
+      "bullets": [
+        "Developed a Call Center Portal using Node.js, NestJS, TypeORM, MySQL, TypeScript, Vue.js, and Vuetify.",
+        "Implemented OAuth 2.0 authentication and authorization with role-based access controls.",
+        "Designed and optimized backend services, endpoints, middleware, and service modules to support business logic and microservices.",
+        "Implemented WebSocket-based real-time communication for instant updates without page refreshes.",
+        "Used Microsoft DevOps tools across planning, deployment, and full development lifecycle management.",
+        "Designed, implemented, and tested Azure Serverless Functions in C# to extend system capabilities.",
+        "Integrated external APIs for dynamic search, filtering, and data workflows."
+      ]
+    },
+    {
+      "company": "Improving Enterprise",
+      "role": "Full Stack Software Development Engineer",
+      "period": "2017 – 2019",
+      "location": "",
+      "bullets": [
+        "Managed application databases using SQL Server Management Studio.",
+        "Designed intuitive user interfaces with XAML for engaging user experiences.",
+        "Used Microsoft Azure for secure storage and management of web and mobile application data.",
+        "Built high-performance websites with React, JavaScript, Bootstrap, Vue.js, CSS, HTML, Angular, ASP.NET, and C#.",
+        "Implemented cross-platform and platform-specific features in C# using Xamarin and dependency injection patterns."
+      ]
+    },
+    {
+      "company": "Hamper",
+      "role": "Full Stack Software Developer",
+      "period": "2015 – 2017",
+      "location": "",
+      "bullets": [
+        "Designed, coded, enhanced, and tested cross-platform applications from frontend to backend.",
+        "Built a team site using JavaScript, Bootstrap, Vue.js, HTML, and CSS.",
+        "Developed applications that allow customers to place and track orders.",
+        "Used Selenium to run automation tests on the Hamper website."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Texas Austin",
+      "degree": "Full Stack Web Development Boot Camp",
+      "year": "2020"
+    },
+    {
+      "school": "University of Houston-Downtown",
+      "degree": "Bachelor’s Degree, Computer Science",
+      "year": "2016"
+    },
+    {
+      "school": "Houston Community College",
+      "degree": "Associate’s Degree, Computer Science",
+      "year": "2013"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Generative AI",
+      "issuer": "LinkedIn",
+      "year": "2025"
+    },
+    {
+      "name": "Python Essential Training",
+      "issuer": "LinkedIn",
+      "year": "2025"
+    }
+  ]
+}
