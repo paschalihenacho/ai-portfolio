@@ -86,7 +86,7 @@ async function loadPortfolio() {
                     <span>${skill.level}%</span>
                   </div>
                   <div class="skill-track">
-                    <div class="skill-fill" data-level="${skill.level}" style="width: 0%"></div>
+                    <div class="skill-fill" style="width: ${skill.level}%"></div>
                   </div>
                 </div>
               `,
@@ -188,10 +188,4 @@ loadPortfolio().catch((error) => {
       </div>
     `,
   );
-});
-requestAnimationFrame(() => {
-  document.querySelectorAll(".skill-fill").forEach((bar) => {
-    const level = bar.getAttribute("data-level");
-    bar.style.width = `${level}%`;
-  });
 });
