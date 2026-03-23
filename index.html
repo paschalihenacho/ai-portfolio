@@ -34,15 +34,25 @@
         <div class="container hero-layout">
           <div class="hero-copy">
             <p class="hero-kicker" id="hero-title"></p>
-            <h1 id="hero-tagline"></h1>
+            <h2 id="hero-tagline"></h2>
             <p class="hero-description" id="hero-summary"></p>
 
             <div class="hero-actions">
-              <a href="#projects" class="button button-primary"
+              <a href="#projects" class="button button-primary" id="cta-primary"
                 >Explore Projects</a
               >
-              <a href="#contact" class="button button-secondary"
+              <a
+                href="#contact"
+                class="button button-secondary"
+                id="cta-secondary"
                 >Get In Touch</a
+              >
+              <a
+                href="#"
+                class="button button-secondary"
+                id="resume-download"
+                download
+                >Download Resume</a
               >
             </div>
 
@@ -101,9 +111,10 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Skills</p>
-            <h2>Core expertise</h2>
+            <h2>Technical proficiency</h2>
           </div>
-          <div class="expertise-grid" id="skills-grid"></div>
+
+          <div class="skills-categories" id="skills-grid"></div>
         </div>
       </section>
 
@@ -183,7 +194,6 @@
     <footer class="site-footer">
       <div class="container footer-row">
         <p id="footer-copy">© 2026 Paschal Ihenacho</p>
-        <p>Minimal portfolio built for GitHub Pages.</p>
       </div>
     </footer>
 

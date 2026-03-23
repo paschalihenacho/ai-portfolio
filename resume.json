@@ -2,8 +2,8 @@
   "name": "Paschal Ihenacho",
   "seoTitle": "Full Stack & AI Engineer",
   "title": "Full Stack Engineer · AI Systems Builder",
-  "tagline": "I build modern software systems that are scalable, intelligent, and built for real users.",
-  "summary": "Full Stack Software Engineer with 8+ years of experience building scalable web applications and AI-powered software solutions. Specialized in TypeScript/JavaScript, Node.js, NestJS, React, and Next.js, with hands-on experience integrating LLMs, retrieval workflows, and cloud-ready architecture into real products.",
+  "tagline": "I build scalable React-driven applications and agentic AI systems that automate workflows, enhance decision-making, and solve real user problems.",
+  "summary": "Full Stack Software Engineer with 7+ years of experience building scalable web applications and AI-powered software solutions. Specialized in TypeScript/JavaScript, Node.js, NestJS, React, and Next.js, with hands-on experience integrating LLMs, retrieval workflows, and cloud-ready architecture into real products.",
   "about": "I design and build maintainable software systems that combine strong backend architecture, polished user experiences, and practical AI integrations. My work spans enterprise applications, e-commerce systems, API modernization, authentication flows, cloud deployment, and AI-assisted user support experiences. I care deeply about clean architecture, scalability, developer experience, and shipping products that solve real business problems.",
   "profileLabel": "Full Stack Engineer",
   "profileSummaryShort": "Building enterprise-grade web applications, AI-powered workflows, and scalable full-stack systems with a clean product mindset.",
@@ -14,6 +14,12 @@
     "location": "Houston, TX, USA",
     "linkedin": "https://www.linkedin.com/in/paschal-ihenacho/",
     "github": "https://github.com/paschalihenacho"
+  },
+  "resumeFile": "./Paschal_Ihenacho_Resume.pdf",
+  "cta": {
+    "primary": "Explore Projects",
+    "secondary": "Get In Touch",
+    "resume": "View Resume PDF"
   },
   "highlights": [
     {
@@ -49,55 +55,41 @@
   ],
   "skills": [
     {
-      "title": "Frontend Engineering",
+      "category": "Frontend",
       "items": [
-        "React",
-        "Next.js",
-        "Angular",
-        "Vue.js",
-        "JavaScript",
-        "TypeScript",
-        "Responsive UI Architecture"
+        { "name": "ReactJS", "level": 95 },
+        { "name": "Next.js", "level": 92 },
+        { "name": "Angular", "level": 85 },
+        { "name": "VueJS 3", "level": 70 },
+        { "name": "TypeScript", "level": 94 },
+        { "name": "JavaScript", "level": 96 }
       ]
     },
     {
-      "title": "Backend & API Design",
+      "category": "Backend",
       "items": [
-        "Node.js",
-        "NestJS",
-        "ExpressJS",
-        "REST APIs",
-        "TypeORM",
-        "Microservices",
-        "OAuth 2.0",
-        "JWT",
-        "WebSockets"
+        { "name": "Node.js", "level": 93 },
+        { "name": "NestJS", "level": 90 },
+        { "name": "REST APIs", "level": 95 },
+        { "name": "PostgreSQL / MySQL", "level": 90 }
       ]
     },
     {
-      "title": "AI Product Integration",
+      "category": "AI / Agentic Systems",
       "items": [
-        "OpenAI API",
-        "Claude",
-        "LangChain",
-        "RAG Pipelines",
-        "Prompt Orchestration",
-        "Context Management",
-        "Pinecone"
+        { "name": "AI / LLM Integration", "level": 85 },
+        { "name": "LangChain / RAG", "level": 75 },
+        { "name": "Agentic Workflows", "level": 80 },
+        { "name": "Prompt Orchestration", "level": 85 }
       ]
     },
     {
-      "title": "Cloud & Delivery",
+      "category": "Cloud / DevOps",
       "items": [
-        "AWS",
-        "Azure",
-        "Vercel",
-        "Docker",
-        "Azure DevOps",
-        "GitHub Actions",
-        "CI/CD",
-        "AWS Lambda",
-        "Testing"
+        { "name": "AWS / Azure", "level": 78 },
+        { "name": "CI/CD & DevOps", "level": 95 },
+        { "name": "Docker", "level": 84 },
+        { "name": "GitHub Actions", "level": 75 }
       ]
     }
   ],

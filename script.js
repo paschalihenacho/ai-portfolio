@@ -7,6 +7,15 @@ async function loadPortfolio() {
 
   const data = await response.json();
 
+  document.getElementById("cta-primary").textContent =
+    data.cta?.primary || "Explore Projects";
+  document.getElementById("cta-secondary").textContent =
+    data.cta?.secondary || "Get In Touch";
+
+  const resumeDownload = document.getElementById("resume-download");
+  resumeDownload.textContent = data.cta?.resume || "Download Resume";
+  resumeDownload.href = data.resumeFile || "#";
+
   document.title = `${data.name} | ${data.seoTitle || "Portfolio"}`;
 
   const initials = data.name
@@ -61,10 +70,29 @@ async function loadPortfolio() {
   const skillsContainer = document.getElementById("skills-grid");
   skillsContainer.innerHTML = data.skills
     .map(
-      (section) => `
-      <article class="feature-card">
-        <h3>${section.title}</h3>
-        <p>${section.items.join(", ")}</p>
+      (group) => `
+      <article class="skills-card">
+        <div class="skills-card-header">
+          <h3>${group.category}</h3>
+        </div>
+
+        <div class="skills-list">
+          ${group.items
+            .map(
+              (skill) => `
+                <div class="skill-bar">
+                  <div class="skill-header">
+                    <span>${skill.name}</span>
+                    <span>${skill.level}%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div class="skill-fill" data-level="${skill.level}" style="width: 0%"></div>
+                  </div>
+                </div>
+              `,
+            )
+            .join("")}
+        </div>
       </article>
     `,
     )
@@ -160,4 +188,10 @@ loadPortfolio().catch((error) => {
       </div>
     `,
   );
+});
+requestAnimationFrame(() => {
+  document.querySelectorAll(".skill-fill").forEach((bar) => {
+    const level = bar.getAttribute("data-level");
+    bar.style.width = `${level}%`;
+  });
 });
