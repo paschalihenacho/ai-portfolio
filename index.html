@@ -8,7 +8,7 @@
       name="description"
       content="Portfolio of Paschal Ihenacho, Full Stack and AI Engineer."
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=4" />
   </head>
   <body>
     <header class="site-header">
@@ -26,13 +26,26 @@
           <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </nav>
+
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle dark mode"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+          <span class="theme-toggle-text">Dark</span>
+        </button>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
         <div class="container hero-layout">
-          <div class="hero-copy">
+          <div class="hero-copy reveal">
             <p class="hero-kicker" id="hero-title"></p>
             <h2 id="hero-tagline"></h2>
             <p class="hero-description" id="hero-summary"></p>
@@ -59,7 +72,7 @@
             <div class="hero-highlights" id="hero-highlights"></div>
           </div>
 
-          <div class="hero-panel">
+          <div class="hero-panel reveal reveal-delay-1">
             <div class="panel-card profile-card">
               <img id="profile-image" class="profile-image" alt="Portrait" />
               <div class="profile-copy">
@@ -75,15 +88,17 @@
                     target="_blank"
                     rel="noreferrer"
                     class="button button-secondary"
-                    >GitHub</a
                   >
+                    GitHub
+                  </a>
                   <a
                     id="linkedin-link"
                     target="_blank"
                     rel="noreferrer"
                     class="button button-primary"
-                    >LinkedIn</a
                   >
+                    LinkedIn
+                  </a>
                 </div>
               </div>
             </div>
@@ -95,13 +110,13 @@
 
       <section id="about" class="section">
         <div class="container two-column">
-          <div class="section-intro">
+          <div class="section-intro reveal">
             <p class="eyebrow">About</p>
             <h2>
               Engineer first. Product-minded. Focused on clarity and scale.
             </h2>
           </div>
-          <div class="section-content">
+          <div class="section-content reveal reveal-delay-1">
             <p id="about-summary"></p>
           </div>
         </div>
@@ -109,7 +124,7 @@
 
       <section id="skills" class="section section-muted">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p class="eyebrow">Skills</p>
             <h2>Technical proficiency</h2>
           </div>
@@ -120,7 +135,7 @@
 
       <section id="projects" class="section">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p class="eyebrow">Projects</p>
             <h2>Selected work</h2>
           </div>
@@ -130,7 +145,7 @@
 
       <section id="experience" class="section section-muted">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p class="eyebrow">Experience</p>
             <h2>Professional background</h2>
           </div>
@@ -140,18 +155,18 @@
 
       <section id="education" class="section">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <p class="eyebrow">Education & Certifications</p>
             <h2>Academic background and professional development</h2>
           </div>
 
           <div class="education-grid">
-            <div class="info-card">
+            <div class="info-card reveal">
               <h3>Education</h3>
               <div id="education-list" class="stack-list"></div>
             </div>
 
-            <div class="info-card">
+            <div class="info-card reveal reveal-delay-1">
               <h3>Certifications</h3>
               <div id="certifications-list" class="stack-list"></div>
             </div>
@@ -160,7 +175,7 @@
       </section>
 
       <section id="contact" class="section section-muted">
-        <div class="container contact-section">
+        <div class="container contact-section reveal">
           <p class="eyebrow">Contact</p>
           <h2>Open to impactful engineering opportunities.</h2>
           <p class="contact-copy" id="contact-location"></p>
@@ -172,15 +187,17 @@
               target="_blank"
               rel="noreferrer"
               class="button button-secondary"
-              >LinkedIn</a
             >
+              LinkedIn
+            </a>
             <a
               id="github-contact-link"
               target="_blank"
               rel="noreferrer"
               class="button button-secondary"
-              >GitHub</a
             >
+              GitHub
+            </a>
           </div>
 
           <div class="contact-inline">
@@ -194,9 +211,10 @@
     <footer class="site-footer">
       <div class="container footer-row">
         <p id="footer-copy">© 2026 Paschal Ihenacho</p>
+        <p>Minimal portfolio built for GitHub Pages.</p>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>
